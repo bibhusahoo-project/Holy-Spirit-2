@@ -1,0 +1,78 @@
+﻿
+> backend@1.0.0 dev
+> node server.js
+
+[dotenv@17.3.1] injecting env (22) from .env -- tip: ΓÜÖ∩╕Å  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ΓÜÖ∩╕Å  suppress all logs with { quiet: true }
+[Env] Razorpay Key ID: 
+[Env] Allowed Origins: http://localhost:3000,http://localhost:3001
+node.exe : [Razorpay] 
+initialization failed: 
+`key_id` or 
+`oauthToken` is 
+mandatory
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([Razorpay] in   
+ it...n` is mandato    
+ry:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+C:\Users\bibhu\Desktop\
+HolySprit\backend\confi
+g\razorpay.js:16
+  throw err;
+  ^
+
+Error: `key_id` or 
+`oauthToken` is 
+mandatory
+    at new Razorpay (C:
+\Users\bibhu\Desktop\Ho
+lySprit\backend\node_mo
+dules\razorpay\dist\raz
+orpay.js:34:13)
+    at 
+Object.<anonymous> (C:\
+Users\bibhu\Desktop\Hol
+ySprit\backend\config\r
+azorpay.js:6:20)
+    at Module._compile 
+(node:internal/modules/
+cjs/loader:1706:14)
+    at Object..js (node
+:internal/modules/cjs/l
+oader:1839:10)
+    at Module.load (nod
+e:internal/modules/cjs/
+loader:1441:32)
+    at Function._load (
+node:internal/modules/c
+js/loader:1263:12)
+    at TracingChannel.t
+raceSync (node:diagnost
+ics_channel:322:14)
+    at wrapModuleLoad (
+node:internal/modules/c
+js/loader:237:24)
+    at Module.require (
+node:internal/modules/c
+js/loader:1463:12)
+    at require (node:in
+ternal/modules/helpers:
+147:16)
+
+Node.js v22.20.0
