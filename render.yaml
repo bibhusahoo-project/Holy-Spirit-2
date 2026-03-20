@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: holy-spirit-2-backend
+    runtime: node
+    plan: free
+    buildCommand: npm ci --production
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20.11.1"
+      - key: NODE_ENV
+        value: production
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=512
